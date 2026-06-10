@@ -10,7 +10,7 @@ const char* stdName[numStandards] = { "Pre-C++11", "C++11", "C++14", "C++17", "C
 
 long getCPPStandard()
 {
-    // Visual Studio is non-conforming in support for __cplusplus (unless you set a specific compiler flag, which you probably haven't)
+    // Visual Studio is non-conforming in support for __cplusplus (unless you set a specific compiler flag, which you probably haven't)a
     // In Visual Studio 2015 or newer we can use _MSVC_LANG instead
     // See https://devblogs.microsoft.com/cppblog/msvc-now-correctly-reports-__cplusplus/
 #if defined (_MSVC_LANG)
